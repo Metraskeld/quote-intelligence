@@ -1,0 +1,78 @@
+{
+  "demande": {
+    "client": "FICTIONAL DEMO BUYER",
+    "devise": "EUR",
+    "tva_recuperable": true,
+    "lignes": [
+      {
+        "reference": "REF-ALPHA",
+        "description": "Demo item 1",
+        "quantite": "10",
+        "unite": "piece"
+      },
+      {
+        "reference": "REF-BETA",
+        "description": "Demo item 2",
+        "quantite": "5",
+        "unite": "piece"
+      }
+    ]
+  },
+  "devis": [
+    {
+      "fournisseur": "FICTIONAL SUPPLIER 1",
+      "devis_id": "A-001",
+      "date": "2026-11-20",
+      "valable_jusquau": "2035-12-31",
+      "devise": "EUR",
+      "livraison_ht": "200",
+      "delai_jours": "7",
+      "total_ht_annonce": "1300",
+      "remise_non_prise_en_compte": false,
+      "lignes": [
+        {
+          "reference": "REF-ALPHA",
+          "quantite": "10",
+          "unite": "piece",
+          "prix_unitaire_ht": "100",
+          "description": "Demo item 1"
+        },
+        {
+          "reference": "REF-BETA",
+          "quantite": "5",
+          "unite": "piece",
+          "prix_unitaire_ht": "20",
+          "description": "Demo item 2"
+        }
+      ]
+    },
+    {
+      "fournisseur": "FICTIONAL SUPPLIER 2",
+      "devis_id": "B-002",
+      "date": "2026-11-20",
+      "valable_jusquau": "2035-12-31",
+      "devise": "EUR",
+      "livraison_ht": "0",
+      "delai_jours": "5",
+      "total_ht_annonce": "1170",
+      "remise_non_prise_en_compte": false,
+      "lignes": [
+        {
+          "reference": "REF-ALPHA",
+          "quantite": "10",
+          "unite": "piece",
+          "prix_unitaire_ht": "108",
+          "description": "Demo item 1"
+        },
+        {
+          "reference": "REF-BETA",
+          "quantite": "5",
+          "unite": "piece",
+          "prix_unitaire_ht": "18",
+          "description": "Demo item 2"
+        }
+      ]
+    }
+  ],
+  "response_language": "en"
+}
